@@ -1,7 +1,7 @@
 window.onload = function() {
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("openModal");
-    var span = document.getElementsByClassName("close-modal")[0];
+    var modal = document.querySelector("#myModal");
+    var btn = document.querySelector("#openModal");
+    var span = document.querySelector(".close-modal");
 
     btn.onclick = function() {
         modal.style.display = "block";
